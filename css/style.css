@@ -1,9 +1,9 @@
-*,
+*, 
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -12,36 +12,32 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.header-title {
-    border-bottom: 1px solid #e7e9fc;
-}
-
 img {
     display: block;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+
+.header-title {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
@@ -102,7 +98,7 @@ a {
 
 .adres:hover,
 .adres:focus {
-    color: #404bbf
+ color: #404bbf
 }
 
 .first-section {
@@ -119,6 +115,7 @@ padding-bottom: 188px;
     color: #ffffff;
     max-width: 496px;
     flex-direction: column;
+    list-style-type: none;
 }
 
 .buton {
@@ -143,21 +140,21 @@ padding-bottom: 188px;
 }
 
 .second-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .second-ul {
@@ -165,9 +162,9 @@ padding-bottom: 188px;
     gap: 24px;
 }
 
-.second-li{
+.second-li {
     width: calc((100% - 72px) / 4)
-}
+} 
 
 .second-title {
     font-weight: 500;
@@ -197,7 +194,6 @@ padding-bottom: 188px;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    flex-direction: column;
 }
 
 .third-ul {
@@ -245,7 +241,6 @@ padding-bottom: 188px;
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-    flex-direction: column;
 }
 
 .fourth-ul {
@@ -253,10 +248,11 @@ padding-bottom: 188px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style-type: none;
 }
 
 .fourth-list {
-    width: calc((100% - 48px) / 3)
+    width: calc((100% - 48px) / 3);
 }
 
 .list-portfolio {
@@ -298,5 +294,5 @@ padding-bottom: 188px;
 }
 
 .footer-logo-span {
-    color: #f4f4fd;
+  color: #F4F4FD;
 }
