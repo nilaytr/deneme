@@ -1,0 +1,44 @@
+* {
+    background-color: aqua;
+}
+
+h1 {
+    color: red;
+}
+
+.box {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.inside-box {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#container{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-top: 10px;
+}
+
+#articles > p {
+    font-size: 14pt;
+}
+
+li:first-child > a {
+    color: green;
+}
+
+p:hover {
+    color: blue;
+}
